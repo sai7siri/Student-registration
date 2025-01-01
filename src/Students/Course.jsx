@@ -40,7 +40,7 @@ const Course = () => {
       <div className="flex flex-col items-center sm:flex-row gap-4">
       <input
         type="text"
-        placeholder="enter course-type"
+        placeholder="enter course"
         className="ring-1 ring-gray-600 p-2 rounded-md"
         value={TypeText || ""}
         onChange={(e) => setTypeText(e.target.value)}
